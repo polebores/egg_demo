@@ -3,14 +3,14 @@
     "username": "test",
     "password": "w-657356",
     "database": "egg-sequelize-doc-default",
-    "host": "127.0.0.1",
+    "host": "100.69.202.103",
     "dialect": "mysql"
   },
   "test": {
     "username": "test",
     "password": "w-657356",
     "database": "egg-sequelize-doc-unittest",
-    "host": "127.0.0.1",
+    "host": "100.69.202.103",
     "dialect": "mysql"
   }
 }
