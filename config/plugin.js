@@ -6,8 +6,16 @@ module.exports = {
   // static: {
   //   enable: true,
   // }
-  sequelize:{
+  sequelize: {
     enable: true,
     package: 'egg-sequelize',
+  },
+  alinode: {
+    enable: true,
+    package: 'egg-alinode',
+  },
+  nunjucks: {
+    enable: true,
+    package: 'egg-view-nunjucks',
   }
 };

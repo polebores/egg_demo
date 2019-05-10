@@ -26,9 +26,19 @@ module.exports = appInfo => {
     dialect: 'mysql',
     username: 'test',
     password: 'w-657356',
-    host: '100.69.202.103',
+    host: '47.103.192.182',
     port: 3306,
-    database: 'egg-sequelize-doc-default',
+    database: 'test',
+  };
+  config.alinode = {
+    appid: '79651',
+    secret: 'fe6d650da745edd8a8af3e3d2d4883e9b31f56ba',
+  };
+  config.view = {
+    //defaultViewEngine: 'nunjucks',            //全局配置
+    mapping: {
+      '.nj': 'nunjucks',
+    },
   };
   
   return {

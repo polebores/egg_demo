@@ -1,0 +1,15 @@
+{% extends "parent.nj" %}
+
+{% block left %}
+  This is the left side!
+{% endblock %}
+
+{% block right %}
+  将父级区块中的内容渲染到子区块中{{ super() }}
+  <br>
+  This is the right side!
+{% endblock %}
+
+<section>
+  变量 {{ username }}
+</section>
